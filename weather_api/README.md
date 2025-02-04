@@ -33,9 +33,9 @@ Create a jupyter notebook in the folder titled `notebooks` called `data_transfor
 
 * monthly medians on `temperature`, `relative humidity`, `precipitation`, and `surface pressure` for all available months
 * yearly medians on `temperature`, `relative humidity`, `precipitation`, and `surface pressure` for all available years
-* yearly medians on `temperature`, `relative humidity`, `precipitation`, and `surface pressure` for all available years along with harvest data (`million_60kgs_bag`, `nonbear_mill_trees`, `bear_mill_trees`, `avg_unemp_perc`) for each respective year present for Minas Gerais
+* yearly medians on `temperature`, `relative humidity`, `precipitation`,million_60kgs_bag`, `nonbear_mill_trees`, `bear_mill_trees`, `avg_unemp_perc`) for each respective year present for Minas Gerais
 
-Be sure to drop rows that contain missing values as you perform these data transformations.
+Be sure to drop rows that contain missing va and `surface pressure` for all available years along with harvest data (`lues as you perform these data transformations.
 
 **explore_weather.ipynb**
 

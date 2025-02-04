@@ -20,15 +20,6 @@ print(response.status_code)
 data = response.json()
 print(response.json())
 
-"""
-# Create a formatted string of the Python JSON object
-def jprint(obj):  
-   text = json.dumps(obj, sort_keys=True, indent=4) 
-   print(text) 
-
-jprint(response.json())
-"""
-
 # Create a json object
 # Save this object into the path data/json.
 with open("/Users/sa9/Desktop/Data_Science_Project3/weather_api/data/json/weather_api.json" , mode = "w") as file:
@@ -51,13 +42,6 @@ df = pd.DataFrame(data)
 # Convert json file w/0 metadata into CSV file.
 df.to_csv('/Users/sa9/Desktop/Data_Science_Project3/weather_api/data/csv/weather_api.csv', index = False)
 
-"""
-# Save dataframe as data.csv in the current directory
-df.to_csv('data.csv') 
-
-# Save dataframe as data.csv in the specified path (/data/CSV/)
-df.to_csv('/data/CSV/to/data.csv')  
-""" 
 # Save dataframe in the specified path (/data/CSV/)
 df = pd.read_csv("/Users/sa9/Desktop/Data_Science_Project3/weather_api/data/csv/weather_api.csv")
 null_counts = df.isnull().sum()
